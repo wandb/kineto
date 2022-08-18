@@ -1,3 +1,6 @@
+# W&B Usage Note
+This repo was forked in order to improve compatibility with trace files stored in Google Cloud Storage. It is actively used in conjunction with our tensorboard functionality.
+
 # Kineto
 
 Kineto is part of the PyTorch Profiler.
