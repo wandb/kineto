@@ -123,5 +123,5 @@ class GoogleBlobSystem(RemotePath, BaseFileSystem):
 
     def create_google_cloud_client(self):
         # TODO: support client with credential?
-        client = storage.Client.create_anonymous_client()
+        client = storage.Client()
         return client
